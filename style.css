@@ -500,6 +500,13 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+.proyects .carousel .card .subText{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
 .proyects .carousel .card img{
     height: 150px;
     width: 150px;
@@ -579,15 +586,18 @@ section .title::after{
     object-fit: cover;
 }
 
-.testimonialBox .details h3{
+.testimonialBox .details a{
+    text-decoration: none;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 1px;
     color: #2196f3;
     line-height: 1.1em;
+    cursor: pointer;
+    
 }
 
-.testimonialBox .details h3 span {
+.testimonialBox .details a span {
     font-size: 12px;
     color: #181818;
 }
