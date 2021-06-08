@@ -1,6 +1,6 @@
 function supportEmail(){
     console.log("Enviando...")
-    var urlSupport = "http://localhost:3900/supportEmail";
+    var urlSupport = "https://backend-hiperefe.herokuapp.com/supportEmail";
     var data = {
         userSupport: 'Douglas Hernandez',
         emailSupport: 'douglasalexander683@gmail.com',
