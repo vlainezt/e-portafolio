@@ -462,27 +462,27 @@
                     <h2>Enviame un email</h2>
                     <div class="formBox">
                         <div class="inputBox w50">
-                            <input type="text" required>
+                            <input type="text" required id="txtName">
                             <span>Nombre</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="text" required>
+                            <input type="text" required id="txtLast">
                             <span>Apellido</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="email" required>
+                            <input type="email" required id="txtEmail">
                             <span>Email</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="text" placeholder="No es obligacion">
+                            <input type="text" placeholder="Opcional" id="txtPhone">
                             <span>Telefono</span>
                         </div>
                         <div class="inputBox w100">
-                            <textarea required></textarea>
+                            <textarea required id="txtMessage"></textarea>
                             <span>Escribe tu mensaje</span>
                         </div>
                         <div class="inputBox w100">
-                            <input type="submit" value="Enviar">
+                            <input type="submit" value="Enviar" onclick="supportEmail()">
                         </div>
                     </div>
 
@@ -500,6 +500,7 @@
 
     <script src="script.js"></script>
     <script src="./languaje.js"></script>
+    <script src="./js/support.js"></script>
 </body>
 
 </html>
