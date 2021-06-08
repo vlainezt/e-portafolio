@@ -502,12 +502,27 @@ section .title::after{
 }
 
 .proyects .carousel .card .subText{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.proyects .carousel .card img{
+.proyects .carousel .card ul.sci{
+    position: relative;
+    display: flex;
+}
+.proyects .carousel .card ul.sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+.proyects .carousel .card ul.sci li a{
+    text-decoration: none;
+}
+.proyects .carousel .card ul.sci  img{
+    width: 50px;
+}
+
+.proyects .carousel .card .proyectLogo{
     height: 150px;
     width: 150px;
     object-fit: cover;
