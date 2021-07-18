@@ -473,7 +473,7 @@ section .title::after{
 .proyects .title::after{
     content: "";
 }
-.proyects .carousel .card{
+.proyects .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -481,47 +481,47 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.proyects .carousel .card:hover{
+.proyects .card:hover{
     background: #1c80d6;
 }
-.proyects .carousel .card .box{
+.proyects .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.proyects .carousel .card:hover .box{
+.proyects .card:hover .box{
     transform: scale(1.05);
 }
-.proyects .carousel .card .text{
+.proyects .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.proyects .carousel .card .subText{
+.proyects .card .subText{
     font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
 
-.proyects .carousel .card ul.sci{
+.proyects .card ul.sci{
     position: relative;
     display: flex;
 }
-.proyects .carousel .card ul.sci li{
+.proyects .card ul.sci li{
     list-style: none;
     margin-right: 15px;
 }
-.proyects .carousel .card ul.sci li a{
+.proyects .card ul.sci li a{
     text-decoration: none;
 }
-.proyects .carousel .card ul.sci  img{
+.proyects .card ul.sci  img{
     width: 45px;
 }
 
-.proyects .carousel .card .proyectLogo{
+.proyects .card .proyectLogo{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -530,27 +530,6 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid #1c80d6!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: #1c80d6!important;
-}
 
 
 /* teams section styling */
